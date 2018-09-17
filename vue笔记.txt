@@ -1,0 +1,16 @@
+vue2.js框架：
+	核心功能双向数据绑定
+
+vue特征：
+    vue有一个根实例，变量app就是vue实例：
+    el属性是用来关注vue实例，'#app' 挂载方式使用，类似jquery获取元素的方式，app.$el来访问元素：
+	vue框架提供很多常用的实例属性和方法
+	data声明双向数据绑定的数据
+	
+vue生命周期：
+	created：实例创建完成后调用，但尚未挂载，$el还不可用，可以初始化一些数据
+	mounted：el挂载到实例上后调用，优先处理业务会在这使用
+	beforeDestory：在销毁之前调用，解绑一些使用addEventListener监听的事件
+	
+
+	
